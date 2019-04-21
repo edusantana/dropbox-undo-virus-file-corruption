@@ -42,7 +42,7 @@ We have to:
 2. Search for file revision we want to restore by the file sufix.
 3. For each file and revision: restore file and delete corrupted file
 
-**NOTE**: The right sequence is important, if we restore all file first and the remove corrupted files latter we could end up getting into Dropbox file limit. So we have to restore and delete one file at time.
+**NOTE**: The right sequence is important, if we restore all file first and then remove corrupted files latter we could end up getting into Dropbox file limit. So we have to restore and delete one file at time.
 
 # The solution
 
