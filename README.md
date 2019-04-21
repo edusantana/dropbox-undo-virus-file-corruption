@@ -1,6 +1,10 @@
+# dropbox undo virus file corruption
+
+This repository describe how I have restored my wife's dropbox from a ransomware virus.
+
 # dropbox-undo-virus-file-corruption
 
-My wife's computer got an virus, and it affected the Dropbox's files.
+My wife's computer got an virus, and it affected all documents and the Dropbox's files.
 
 The virus created a file manual (`RJMTQ-MANUAL.TXT`) in each folder:
 
@@ -18,7 +22,7 @@ All your files, documents, photos, databases and other important files are encry
 The only method of recovering files is to purchase an unique private key. Only we can give you this key and only we can recover your files.
 ```
 
-The dropbox files were renamed and changed (corrupted) by the virus. On this case the `.rjmtq` was added at the name of every file it changed.
+The dropbox files were renamed and changed (corrupted) by the virus. On this case the `.rjmtq` was added at the end of the name of every file it changed.
 
 As you can see in the picture bellow, if you go to dropbox file we can see that there are two versions (revisions) of the file and we can restore it:
 
