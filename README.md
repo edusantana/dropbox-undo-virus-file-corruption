@@ -1,8 +1,6 @@
 # dropbox-undo-virus-file-corruption
 
-Hi, I got virus on my wife' computer. It corruptes 
-
-My wife's computer got an virus, and it affected the Dropbox's files'.
+My wife's computer got an virus, and it affected the Dropbox's files.
 
 The virus created a file manual (`RJMTQ-MANUAL.TXT`) in each folder:
 
