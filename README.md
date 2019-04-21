@@ -142,7 +142,7 @@ cat ~/list.json | jq -r '.matches[].metadata.path_display' | sed "s/$VIRUS_SUFIX
 
 ### Restoring and deleting files
 
-Inspect `cat ~/list.txt` and see that those are your files you want to restore. Then run `dropbox_restore_and_fix_virus_damage.sh`:
+Inspect `cat ~/list.txt` and see that those are your files you want to restore. Then run [dropbox_restore_and_fix_virus_damage.sh](https://github.com/edusantana/dropbox-undo-virus-file-corruption/blob/master/dropbox_restore_and_fix_virus_damage.sh):
 
 ```
 ./dropbox_restore_and_fix_virus_damage.sh < ~/list.txt
